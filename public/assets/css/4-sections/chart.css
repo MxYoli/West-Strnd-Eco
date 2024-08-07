@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.chart-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.doughnut-chart {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(
+        #ff5733 0% 20%,      /* Segment 1 */
+        #33ff57 20% 40%,     /* Segment 2 */
+        #3357ff 40% 60%,     /* Segment 3 */
+        #f5f5f5 60% 80%,     /* Segment 4 */
+        #ff33a1 80% 100%     /* Segment 5 */
+    );
+    border: 10px solid white; /* Adjust the border width to create the doughnut effect */
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
