@@ -212,19 +212,19 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  color: #659e39;
-  background-color: var(--background-color);
+  color: #ff914d;
+  background-color: white;
   padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
 }
 
 .header .logo {
-  line-height: 1;
+  line-height: 0;
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 100px;
   margin-right: 8px;
 }
 
@@ -232,7 +232,7 @@ h6 {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
-  color: var(--heading-color);
+  color: #ff914d;
 }
 
 .scrolled .header {
@@ -539,12 +539,12 @@ h6 {
 
 .footer .footer-links ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 15px;
+  margin: 10px;
 }
 
 .footer .footer-links ul i {
-  padding-right: 2px;
+  padding-right: 20px;
   font-size: 12px;
   line-height: 0;
 }
@@ -602,7 +602,7 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var(--contrast-color);
+  color: black;
   background: var(--accent-color);
   text-decoration: none;
 }
@@ -743,6 +743,7 @@ section,
   padding: 60px 0;
   scroll-margin-top: 100px;
   overflow: clip;
+  margin-bottom: -60px;
 }
 
 @media (max-width: 1199px) {
@@ -1071,17 +1072,19 @@ section,
 --------------------------------------------------------------*/
 .services-2 {
   overflow: visible;
-  margin-bottom: 200px;
+  margin-bottom: 0px;
+  margin-top: -50px;
 }
 
 .services-2 .section-title {
-  text-align: left;
+  text-align: center;
 }
 
 .services-2 .section-title h2 {
-  color: color-mix(in srgb, var(--contrast-color), transparent 50%);
+  color: color-mix(in srgb, white, transparent 50%);
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 50px;
+
 }
 
 .services-2 .section-title p {
