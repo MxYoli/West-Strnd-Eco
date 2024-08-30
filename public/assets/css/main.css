@@ -1,7 +1,6 @@
 
 /*--------------------------------------------------------------
 # Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
@@ -14,15 +13,15 @@
 :root { 
   --background-color: white; /* Background color for the entire website, including individual sections */
   --default-color: black; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: white; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #c1e3a7; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --heading-color: #f19820; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #659e39; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --contrast-color: white; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #212529;  /* The default color of the main navmenu links */
-  --nav-hover-color: #116530; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #659e39; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: white; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: white; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -36,7 +35,7 @@
 .dark-background {
   --background-color: #ffbd59;
   --default-color: white;
-  --heading-color: white;
+  --heading-color: Black;
   --accent-color: #c1e3a7;
   --surface-color: black;
   
@@ -59,12 +58,12 @@ body {
 a {
   color: var(--accent-color);
   text-decoration: none;
-  transition: 0.3s;
+  transition: 5.8s;
 }
 
 a:hover {
-  color: color-mix(in srgb, #0cc0df, transparent 25%);
-  text-decoration: none;
+  color: color-mix(in srgb, #ff914d);
+
 }
 
 h1,
@@ -75,6 +74,7 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+  margin-top: 20px;
 }
 
 /* PHP Email Form Messages
@@ -214,7 +214,7 @@ h6 {
 .header {
   color: #ff914d;
   background-color: white;
-  padding: 20px 0;
+  padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -484,6 +484,7 @@ h6 {
   background-color: #659e39;
   font-size: 14px;
   position: relative;
+
 }
 
 .footer .footer-top {
@@ -535,6 +536,7 @@ h6 {
 
 .footer .footer-links {
   margin-bottom: 30px;
+  width: 330px;
 }
 
 .footer .footer-links ul {
@@ -739,11 +741,13 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
-  padding: 60px 0;
+  background-color: white;
+  padding: 50px;
+  padding-bottom: 90px;
   scroll-margin-top: 100px;
   overflow: clip;
-  margin-bottom: -60px;
+  margin-bottom: -90px;
+  margin-top: 50px;
 }
 
 @media (max-width: 1199px) {
@@ -759,14 +763,17 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   position: relative;
+  padding-top: 50px;
+  margin-bottom: -20px;
 }
 
 .section-title h2 {
   font-size: 28px;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
+ 
 }
 
 .section-title p {
@@ -942,6 +949,8 @@ section,
 .services .section-title h2 {
   color: var(--accent-color);
   font-size: 50px;
+  padding: 30px;
+  padding-bottom: -20px;
 }
 
 .services .content .service-item {
@@ -1035,7 +1044,9 @@ section,
 .about .content {
   background: var(--accent-color);
   color: var(--contrast-color);
-  padding: 7rem 0;
+  padding: 7rem;
+  padding-bottom: -50px;
+  margin-bottom: -90px;
 }
 
 .about .content .img-overlap {
@@ -1371,6 +1382,8 @@ section,
 .about-3 .content-title {
   color: var(--accent-color);
   margin-bottom: 30px;
+  padding-bottom: 40px;
+  padding-top: 30px;
 }
 
 .about-3 .btn-cta {
