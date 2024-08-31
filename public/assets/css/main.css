@@ -62,8 +62,8 @@ a {
 }
 
 a:hover {
-  color: color-mix(in srgb, #ff914d);
-
+  color: color-mix(in srgb, #ff914d, transparent 25%);
+  text-decoration: none;
 }
 
 h1,
@@ -74,7 +74,7 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 /* PHP Email Form Messages
@@ -214,13 +214,13 @@ h6 {
 .header {
   color: #ff914d;
   background-color: white;
-  padding: 10px 0;
+  padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
 }
 
 .header .logo {
-  line-height: 0;
+  line-height: 1;
 }
 
 .header .logo img {
@@ -489,7 +489,7 @@ h6 {
 
 .footer .footer-top {
   background-color: color-mix(in srgb, var(--background-color), white 5%);
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .footer .footer-about .logo {
@@ -536,13 +536,13 @@ h6 {
 
 .footer .footer-links {
   margin-bottom: 30px;
-  width: 330px;
+  /* width: 330px; */
 }
 
 .footer .footer-links ul {
   list-style: none;
-  padding: 15px;
-  margin: 10px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer .footer-links ul i {
@@ -655,8 +655,8 @@ h6 {
   bottom: 15px;
   z-index: 99999;
   background-color: black;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
 }
@@ -742,12 +742,12 @@ section,
 .section {
   color: var(--default-color);
   background-color: white;
-  padding: 50px;
-  padding-bottom: 90px;
+  padding: 60px;
+  /* padding-bottom: 90px; */
   scroll-margin-top: 100px;
   overflow: clip;
-  margin-bottom: -90px;
-  margin-top: 50px;
+  /* margin-bottom: -90px;
+  margin-top: 50px; */
 }
 
 @media (max-width: 1199px) {
@@ -763,16 +763,16 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 70px;
+  padding-bottom: 60px;
   position: relative;
-  padding-top: 50px;
-  margin-bottom: -20px;
+  /* padding-top: 50px;
+  margin-bottom: -20px; */
 }
 
 .section-title h2 {
   font-size: 28px;
   font-weight: 500;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
  
 }
 
@@ -948,9 +948,9 @@ section,
 --------------------------------------------------------------*/
 .services .section-title h2 {
   color: var(--accent-color);
-  font-size: 50px;
-  padding: 30px;
-  padding-bottom: -20px;
+  font-size: 20px;
+  /* padding: 30px;
+  padding-bottom: -20px; */
 }
 
 .services .content .service-item {
@@ -1044,9 +1044,9 @@ section,
 .about .content {
   background: var(--accent-color);
   color: var(--contrast-color);
-  padding: 7rem;
-  padding-bottom: -50px;
-  margin-bottom: -90px;
+  padding: 7rem 0;
+  /* padding-bottom: -50px;
+  margin-bottom: -90px; */
 }
 
 .about .content .img-overlap {
@@ -1057,9 +1057,9 @@ section,
   color: var(--contrast-color);
 }
 
-#about-3 .container .order-lg-1 #paragraph {
+/* #about-3 .container .order-lg-1 #paragraph {
   margin-right: -190px;
-}
+} */
 
 .about .content-title {
   color: var(--contrast-color);
@@ -1083,8 +1083,8 @@ section,
 --------------------------------------------------------------*/
 .services-2 {
   overflow: visible;
-  margin-bottom: 0px;
-  margin-top: -50px;
+  margin-bottom: 200px;
+  /* margin-top: -50px; */
 }
 
 .services-2 .section-title {
@@ -1382,8 +1382,8 @@ section,
 .about-3 .content-title {
   color: var(--accent-color);
   margin-bottom: 30px;
-  padding-bottom: 40px;
-  padding-top: 30px;
+  /* padding-bottom: 40px;
+  padding-top: 30px; */
 }
 
 .about-3 .btn-cta {
