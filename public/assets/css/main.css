@@ -484,12 +484,12 @@ h6 {
   background-color: #659e39;
   font-size: 14px;
   position: relative;
-
 }
 
 .footer .footer-top {
   background-color: color-mix(in srgb, var(--background-color), white 5%);
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer .footer-about .logo {
@@ -696,6 +696,7 @@ h6 {
   background-position: center;
   background-repeat: no-repeat;
   padding: 80px 0;
+  margin-bottom: 80px;
   text-align: center;
   position: relative;
 }
@@ -850,6 +851,8 @@ section,
 
 .hero p {
   animation: fadeInDown 1s both 0.2s;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 @media (min-width: 1024px) {
@@ -1051,10 +1054,12 @@ section,
 
 .about .content .img-overlap {
   margin-top: -150px;
+  height: 700px;
 }
 
 .about p {
   color: var(--contrast-color);
+  line-height: 1.8;
 }
 
 /* #about-3 .container .order-lg-1 #paragraph {
@@ -1918,6 +1923,10 @@ section,
 --------------------------------------------------------------*/
 .contact {
   padding-top: 10px;
+}
+
+.info {
+  margin-bottom: 80px;
 }
 
 .contact .info {
